@@ -1,15 +1,17 @@
 {
-  "name": "suzukimasanao",
+  "name": "twitter_heroku",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "bin": {
+    "twitter_heroku": "hejime.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "slack-node": "^0.1.8",
     "twitter": "^1.7.1"
   }
 }
