@@ -1,0 +1,5 @@
+[2018-07-31T00:48:45.766] [DEBUG] task - 1023896086602104832
+[2018-07-31T00:49:57.014] [DEBUG] task - success 13 966264488126136320
+[2018-07-31T00:50:13.563] [DEBUG] task - success 16 70355145
+[2018-07-31T00:50:35.257] [WARN] task - [ { code: 158, message: 'You can\'t follow yourself.' } ]
+[2018-07-31T00:50:57.312] [DEBUG] task - success 24 928065735871496193
