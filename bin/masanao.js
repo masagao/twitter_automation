@@ -1,5 +1,5 @@
-const twitter = require ('twitter')
-const log4js = require('log4js')
+const twitter = require ('./twitter')
+const log4js = require('./log4js')
 const twitterApi = require ('./twitterApi.js')
 
 const HEROKU_CONFIG_KEY = process.env.tw_consumer_key;
