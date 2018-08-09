@@ -1,5 +1,5 @@
-const twitter = require ('./twitter')
-const log4js = require('./log4js')
+const twitter = require ('twitter')
+const log4js = require('log4js')
 const twitterApi = require ('./twitterApi.js')
 
 const HEROKU_CONFIG_KEY = process.env.tw_consumer_key;
@@ -17,7 +17,7 @@ var client = new twitter({
 log4js.configure({
   appenders: {
     out: {type: 'console'},
-    task: {type: 'dateFile', filename: './logs/fav.log', pattern: '-yyyy-MM-dd'}
+    task: {type: 'dateFile', filename: '../logs/fav.log', pattern: '-yyyy-MM-dd'}
   },
   categories: {
     default: {appenders: [ 'out' ], level: 'all'},
