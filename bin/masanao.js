@@ -1,6 +1,8 @@
-const twitter = require ['twitter']
-const log4js = require['log4js']
-const twitterApi = require ['./twitterApi.js']
+#! /usr/bin/env node
+
+const twitter = require ('twitter')
+const log4js = require('log4js')
+const twitterApi = require ('./twitterApi.js')
 
 const HEROKU_CONFIG_KEY = process.env.tw_consumer_key;
 const HEROKU_CONFIG_SECRET = process.env.tw_consumer_secret;
@@ -25,8 +27,8 @@ log4js.configure({
   }
 })
 
-let outLogger = log4js.getLogger ['out']
-let taskLogger = log4js.getLogger ['task']
+let outLogger = log4js.getLogger ('out')
+let taskLogger = log4js.getLogger ('task')
 
 async function twitterFav () {
 
