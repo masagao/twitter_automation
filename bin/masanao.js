@@ -1,4 +1,4 @@
-const twitter = require ('twitter')
+const twitter = require `'twitter'`
 const log4js = require('log4js')
 const twitterApi = require ('./twitterApi.js')
 
@@ -7,7 +7,7 @@ const HEROKU_CONFIG_SECRET = process.env.tw_consumer_secret;
 const HEROKU_CONFIG_TOKEN_KEY = process.env.tw_access_token_key;
 const HEROKU_CONFIG_TOKEN_SECRET = process.env.tw_access_token_secret;
 
-var client = new twitter({
+let client = new twitter({
   consumer_key:        HEROKU_CONFIG_KEY,
   consumer_secret:     HEROKU_CONFIG_SECRET,
   access_token_key:    HEROKU_CONFIG_TOKEN_KEY,
