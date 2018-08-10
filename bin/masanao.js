@@ -1,4 +1,4 @@
-const twitter = require ('twitter')
+const twitter = require ("twitter");
 const log4js = require('log4js')
 const twitterApi = require ('./twitterApi.js')
 
