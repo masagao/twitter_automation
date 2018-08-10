@@ -19,7 +19,7 @@ let client = new twitter({
 log4js.configure({
   appenders: {
     out: {type: 'console'},
-    task: {type: 'dateFile', filename: '../logs/fav.log', pattern: '-yyyy-MM-dd'}
+    task: {type: 'dateFile', filename: '/logs/fav.log', pattern: '-yyyy-MM-dd'}
   },
   categories: {
     default: {appenders: [ 'out' ], level: 'all'},
