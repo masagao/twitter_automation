@@ -4,10 +4,10 @@ const twitter = require ('twitter')
 const log4js = require('log4js')
 const twitterApi = require ('./twitterApi.js')
 
-const HEROKU_CONFIG_KEY = process.env.tw_consumer_key;
-const HEROKU_CONFIG_SECRET = process.env.tw_consumer_secret;
-const HEROKU_CONFIG_TOKEN_KEY = process.env.tw_access_token_key;
-const HEROKU_CONFIG_TOKEN_SECRET = process.env.tw_access_token_secret;
+const HEROKU_CONFIG_KEY = process.env.tw_consumer_key
+const HEROKU_CONFIG_SECRET = process.env.tw_consumer_secret
+const HEROKU_CONFIG_TOKEN_KEY = process.env.tw_access_token_key
+const HEROKU_CONFIG_TOKEN_SECRET = process.env.tw_access_token_secret
 
 let client = new twitter({
   consumer_key:        HEROKU_CONFIG_KEY,
