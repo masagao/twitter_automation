@@ -33,7 +33,7 @@ let taskLogger = log4js.getLogger ('task')
 async function twitterFback () {
 
   try {
-    const followersCount = 5
+    const followersCount = 10
     const followersList = await twitterApi.getFollowersList (client, followersCount)
 
     for (let key in followersList['users']) {
