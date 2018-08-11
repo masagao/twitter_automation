@@ -43,7 +43,7 @@ async function twitterBeg () {
   });
 
   const myId = '939897944362311681'
-  const influencerId = '3922007414'
+  const influencerId = '885163185707261952'
   tweetCount = '1'
 
   try {
