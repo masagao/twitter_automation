@@ -32,8 +32,8 @@ let taskLogger = log4js.getLogger ('task')
 
 async function twitterFav () {
 
-  const tweetsCount = 1
-  const favouritesCount = 0
+  const tweetsCount = 50
+  const favouritesCount = 1
   const myId = '939897944362311681'
 
   try{

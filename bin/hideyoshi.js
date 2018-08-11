@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 const twitter = require ('twitter')
 const log4js = require('log4js')
 const twitterApi = require ('./twitterApi.js')
@@ -31,7 +33,7 @@ let taskLogger = log4js.getLogger ('task')
 async function twitterUnfollow () {
 
   const userId = '939897944362311681'
-  const friendsCount = 100
+  const friendsCount = 25
 
   try{
     const friends = await twitterApi.getFriendsIds (client, userId, friendsCount)

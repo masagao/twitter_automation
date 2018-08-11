@@ -1,8 +1,0 @@
-[2018-07-31T09:41:23.073] [WARN] task - { Error: socket hang up
-    at createHangUpError (_http_client.js:331:15)
-    at TLSSocket.socketOnEnd (_http_client.js:423:23)
-    at emitNone (events.js:111:20)
-    at TLSSocket.emit (events.js:208:7)
-    at endReadableNT (_stream_readable.js:1064:12)
-    at _combinedTickCallback (internal/process/next_tick.js:138:11)
-    at process._tickCallback (internal/process/next_tick.js:180:9) code: 'ECONNRESET' }

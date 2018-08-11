@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 const twitter = require ('twitter')
 const log4js = require('log4js')
 const twitterApi = require ('./twitterApi.js')
@@ -31,7 +33,7 @@ let taskLogger = log4js.getLogger ('task')
 async function twitterFback () {
 
   try {
-    const followersCount = 2
+    const followersCount = 5
     const followersList = await twitterApi.getFollowersList (client, followersCount)
 
     for (let key in followersList['users']) {

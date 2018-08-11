@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 const request = require ('request')
 const twitter = require ('twitter')
 const log4js = require('log4js')
@@ -42,7 +44,7 @@ async function twitterBeg () {
 
   const myId = '939897944362311681'
   const influencerId = '3922007414'
-  tweetCount = '3'
+  tweetCount = '1'
 
   try {
     const tweets = await twitterApi.getUtimeline (client, influencerId, tweetCount)
