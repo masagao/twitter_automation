@@ -34,7 +34,7 @@ async function twitterFav() {
 
   const tweetsCount = 10
   const favouritesCount = 0
-  const myId = process.env.MY_ID
+  const myId = process.env.my_id
 
   try {
     const tweets = await twitterApi.getHtimeline(client, tweetsCount)

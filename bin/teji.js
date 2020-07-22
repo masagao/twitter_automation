@@ -32,7 +32,7 @@ let taskLogger = log4js.getLogger('task')
 
 async function twitterMute() {
 
-  const userId = process.env.MY_ID
+  const userId = process.env.my_id
   const friendsCount = 1
   const tweetsCount = 20
   const favoritedlimit = 3

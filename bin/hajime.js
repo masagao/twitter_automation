@@ -40,7 +40,7 @@ async function twitterBeg() {
     access_token_secret: HEROKU_CONFIG_TOKEN_SECRET
   });
 
-  const myId = process.env.MY_ID;
+  const myId = process.env.my_id;
   const influencerId = ''
   tweetCount = 1
 
