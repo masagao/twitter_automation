@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "log4js": "^3.0.6",
+    "log4js": "^6.4.0",
     "twitter": "^1.7.1"
   }
 }
